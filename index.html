@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz</title>  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="container d-flex flex-column align-items-center p-3">
+        <h1 class="text-center mb-4">Simple Quiz</h1>
+        <div class="quiz w-100 border rounded bg-light" style="max-width: 600px;">
+            <h2 id="question" class="text-center mb-4 text-wrap">This is a question that will automatically adjust to any screen size and will not overflow even on very small screens.</h2>
+            <div id="answerbuttons" class="d-flex justify-content-around flex-wrap mb-3">
+                <button class="btn btn-outline-primary m-2">Answer 1</button>
+                <button class="btn btn-outline-primary m-2">Answer 2</button>
+                <button class="btn btn-outline-primary m-2">Answer 3</button>
+                <button class="btn btn-outline-primary m-2">Answer 4</button>
+            </div>
+            <button id="nextbtn" class="btn btn-primary btn-block">Next</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
